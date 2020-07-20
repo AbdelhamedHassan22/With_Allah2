@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".java.withallah.KaabaFragment">
+
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/page2bu" />
+
+    <TextView
+
+        android:layout_width="188dp"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:text="فَلَنُوَلِّيَنَّكَ قِبْلَةً تَرْضَاهَا"
+        android:textColor="#88000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView8"
+        app:layout_constraintEnd_toStartOf="@+id/imageView8"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.521" />
+
+    <!--<ImageView-->
+    <!--android:id="@+id/main_image_hands"-->
+    <!--android:layout_width="20dp"-->
+    <!--android:layout_height="240dp"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:contentDescription="@string/compass_hands"-->
+    <!--android:scaleType="fitXY"-->
+    <!--android:src="@drawable/hands" />-->
+
+
+    <ImageView
+        android:id="@+id/main_image_dial"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/compass_dial"
+        android:src="@drawable/dial"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+    <ImageView
+        android:id="@+id/main_image_qiblat"
+        android:layout_width="37dp"
+        android:layout_height="240dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/compass_hands"
+        android:scaleType="fitXY"
+        android:src="@drawable/jarum_qiblat"
+        app:layout_constraintBottom_toBottomOf="@+id/main_image_dial"
+        app:layout_constraintEnd_toEndOf="@+id/main_image_dial"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="@+id/main_image_dial"
+        app:layout_constraintTop_toTopOf="@+id/main_image_dial"
+        app:layout_constraintVertical_bias="0.462" />
+
+    <TextView
+        android:id="@+id/teks_atas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/main_image_dial"
+        app:layout_constraintEnd_toEndOf="@+id/main_image_dial"
+        app:layout_constraintHorizontal_bias="0.243"
+        app:layout_constraintStart_toStartOf="@+id/main_image_dial"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:layout_constraintVertical_bias="0.469" />
+
+    <TextView
+        android:id="@+id/teks_bawah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_image_dial"
+        app:layout_constraintVertical_bias="0.173" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

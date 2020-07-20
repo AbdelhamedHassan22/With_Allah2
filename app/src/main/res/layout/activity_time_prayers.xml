@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center_horizontal"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="Fajr: "/>
+
+        <TextView
+            android:id="@+id/fajr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#9E4444"
+            android:textSize="16sp"
+            android:layout_marginLeft="100dp"
+            android:text="Fajr"
+            android:layout_marginStart="100dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="Duhur: "/>
+
+        <TextView
+            android:id="@+id/duhur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#9E4444"
+            android:textSize="16sp"
+            android:layout_marginLeft="100dp"
+            android:text="Fajr"
+            android:layout_marginStart="100dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="Asr: "/>
+
+        <TextView
+            android:id="@+id/asr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#9E4444"
+            android:textSize="16sp"
+            android:layout_marginLeft="100dp"
+            android:text="Maghreb"
+            android:layout_marginStart="100dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="Maghreb: "/>
+
+        <TextView
+            android:id="@+id/maghreb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#9E4444"
+            android:textSize="16sp"
+            android:layout_marginLeft="100dp"
+            android:text="maghreb"
+            android:layout_marginStart="100dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="Isha: "/>
+
+        <TextView
+            android:id="@+id/isha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#9E4444"
+            android:textSize="16sp"
+            android:layout_marginLeft="100dp"
+            android:text="isha"
+            android:layout_marginStart="100dp" />
+    </LinearLayout>
+
+
+</LinearLayout>

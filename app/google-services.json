@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "413932844812",
+    "firebase_url": "https://with-allah-ac986.firebaseio.com",
+    "project_id": "with-allah-ac986",
+    "storage_bucket": "with-allah-ac986.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413932844812:android:43cf1b42034a2907c13b29",
+        "android_client_info": {
+          "package_name": "com.SoftwareInversion.withallah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413932844812-e2o9l4rrer9m7bc61aj7nnpggrom25aq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhih2Jgv1OF4CJXQir6lzFNoh5lADYZf8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "413932844812-e2o9l4rrer9m7bc61aj7nnpggrom25aq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

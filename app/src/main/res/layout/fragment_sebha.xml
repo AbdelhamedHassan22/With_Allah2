@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/page2b">
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="135dp"
+        android:layout_marginBottom="79dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/page2b" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="111dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="208dp"
+                android:src="@drawable/logo_seb"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.023"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="257dp"
+                android:layout_height="118dp"
+                android:layout_margin="10dp"
+                android:layout_marginStart="17dp"
+                android:gravity="center"
+                android:paddingRight="4dp"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/floatingActionsMenu"
+                app:layout_constraintStart_toEndOf="@+id/imageView7"
+                app:layout_constraintTop_toBottomOf="@+id/imageView8"
+                app:layout_constraintVertical_bias="0.019" />
+
+            <TextView
+                android:id="@+id/counter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textColor="#00805C"
+                android:textSize="60sp"
+                app:layout_constraintBottom_toTopOf="@+id/plus"
+                app:layout_constraintEnd_toEndOf="@+id/plus"
+                app:layout_constraintStart_toStartOf="@+id/plus"
+                app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+            <ImageView
+                android:id="@+id/plus"
+                android:layout_width="215dp"
+                android:layout_height="227dp"
+                android:src="@drawable/plus_sebha"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.301"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView7"
+                app:layout_constraintVertical_bias="0.848" />
+
+            <ImageView
+
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginEnd="56dp"
+                android:scaleType="fitXY"
+                app:layout_constraintBottom_toBottomOf="@+id/plus"
+                app:layout_constraintEnd_toEndOf="@+id/plus"
+                app:layout_constraintTop_toTopOf="@+id/plus"
+                app:layout_constraintVertical_bias="0.472"
+                app:srcCompat="@drawable/up_sebha" />
+
+            <com.getbase.floatingactionbutton.FloatingActionsMenu
+                android:id="@+id/floatingActionsMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="4dp"
+                app:fab_addButtonColorNormal="#00805C"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.903">
+
+                <com.getbase.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/reset"
+                    android:layout_width="wrap_content"
+                    android:layout_height="6dp"
+                    app:fabSize="mini"
+                    app:fab_colorNormal="#00805C"
+                    app:fab_icon="@drawable/ic_baseline_refresh_24" />
+
+                <com.getbase.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/addSelectedChoice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:fabSize="mini"
+                    app:fab_colorNormal="#00805C"
+                    app:fab_icon="@drawable/ic_baseline_create_24" />
+
+
+            </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/page2bu" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="204dp"
+                android:layout_height="110dp"
+                android:gravity="center"
+                android:text="لعل تسبيحة تسعدك ، ترزقك ، تفتح مغاليق قلبك"
+                android:textColor="#04786E"
+                android:textSize="26sp"
+                app:layout_constraintBottom_toTopOf="@+id/imageView7"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.033"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imageView8"
+                app:layout_constraintVertical_bias="0.275" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00805C</color>
+    <color name="colorPrimaryDark">#00805C</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="inactivespot">#9A00805C</color>
+    <color name="activespot">#00805C</color>
+    <color name="white">#fff</color>
+
+
+
+    <!-- Customize your Dark theme here. -->
+
+    <color name="colorPrimaryNight">#70131313</color>
+    <color name="colorPrimaryDarkNight">#70131313</color>
+    <color name="colorAccentNight">#03DAC5</color>
+
+
+    <color name="PrimaryText">#000000</color>
+    <color name="SecondryText">#000000</color>
+
+
+    <color name="PrimaryTextNight">#ffffff</color>
+    <color name="SecondryTextNight">#CFCFCF</color>
+
+
+    <color name="cardBackground">#FFFFFF</color>
+    <color name="cardBackgroundNight">#000000</color>
+</resources>

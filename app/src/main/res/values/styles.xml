@@ -1,0 +1,83 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimaryDark">#00805C</item>
+        <item name="colorPrimary">#00805C</item>
+        <item name="colorAccent">#ffffff</item>
+        <item name="backgroundColor">#fcfcfc</item>
+        <item name="cardBackground">#ffffff</item>
+        <item name="TextColor">#808080</item>
+        <item name="tintColor">#ffffff</item>
+    </style>
+
+
+
+    <style name="darktheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimaryDark">#212121</item>
+        <item name="colorPrimary">#000000</item>
+        <item name="colorAccent">#ffffff</item>
+        <item name="backgroundColor">#303030</item>
+        <item name="cardBackground">#424242</item>
+        <item name="TextColor">#808080</item>
+        <item name="tintColor">#ffffff</item>
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <style name="compass" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimaryDark">#00805C</item>
+        <item name="colorPrimary">#00805C</item>
+    </style>
+        <!-- Customize your Dark theme here. -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <style name="tool">#fff</style>
+</resources>

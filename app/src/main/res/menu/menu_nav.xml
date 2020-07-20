@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/asmaa"
+        android:icon="@drawable/asmaa_allah_elhosna_icon"
+        android:title="اسماء الله الحسني"/>
+    <item
+        android:id="@+id/keblaa"
+        android:icon="@drawable/kbaa_icon"
+        android:title="القبلة" />
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/settings_nav"
+        android:title="الاعدادات" />
+</group>
+
+<item android:title="others">
+    <menu>
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/icon_share"
+            android:title="مشاركة" />
+        <item
+            android:id="@+id/rate"
+            android:icon="@drawable/icon_rate"
+            android:title="التقييم" />
+        <item
+            android:id="@+id/review"
+            android:icon="@drawable/icon_reveiw"
+            android:title="مقترحاتك" />
+        <item
+            android:id="@+id/apps"
+            android:icon="@drawable/icon_apps"
+            android:title="تطبيقاتنا الأخري" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/icon_about"
+            android:title="المطورين" />
+    </menu>
+</item>
+
+
+</menu>
